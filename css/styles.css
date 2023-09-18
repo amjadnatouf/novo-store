@@ -215,7 +215,7 @@ a {
 /* start hero section */
 .hero-section {
   margin-bottom: 15rem;
-  height: 700px;
+  height: 600px;
 }
 
 .hero {
@@ -228,7 +228,7 @@ a {
 }
 
 .btn-order {
-  background: #0071e3;
+  background: var(--clr-main);
   color: #fff;
   cursor: pointer;
   margin-top: -100px;
