@@ -56,6 +56,17 @@ body {
 a {
   text-decoration: none;
 }
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 30px;
+}
 /* end global styling */
 
 /* start header section */
@@ -203,8 +214,36 @@ a {
 
 /* start hero section */
 .hero-section {
-  margin-bottom: 60px;
+  margin-bottom: 15rem;
+  height: 700px;
 }
+
+.hero {
+  height: 100%;
+}
+
+.hero-info {
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn-order {
+  background: #0071e3;
+  color: #fff;
+  cursor: pointer;
+  margin-top: -100px;
+  margin-bottom: .7rem;
+}
+
+.hero-info > P:first-of-type{
+  font-size: 19px;
+  line-height: 1.4211026316;
+  font-weight: 600;
+  letter-spacing: .012em;
+  margin-bottom: .7rem;
+
+}
+
 
 .video {
   width: 100%;
